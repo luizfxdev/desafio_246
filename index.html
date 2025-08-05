@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mestre dos Dracos Anagramas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Mestre dos Dracos Anagramas</h1>
+        <p class="subtitle">Decifre a linguagem secreta dos dragões!</p>
+      </header>
+
+      <div class="input-section">
+        <div class="input-group">
+          <label for="word-input">Digite as palavras (separadas por vírgula):</label>
+          <input type="text" id="word-input" placeholder="roma, amor, ramo, draco, corda" />
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button id="calculate-btn" style="--clr: #ff5722">
+          <span>CALCULAR</span>
+          <i></i>
+        </button>
+        <button id="return-btn" style="--clr: #ff5722">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <div class="result-section">
+        <h2>Resultado</h2>
+        <div id="result" class="result-box"></div>
+        <div id="calculation" class="calculation-box"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
